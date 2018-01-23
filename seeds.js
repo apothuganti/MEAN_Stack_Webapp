@@ -38,7 +38,7 @@ function seedDB(){
                     Comment.create(
                         {
                             text: "This place is great, but I wish there was internet",
-                            author: "Homer"
+                            author: "Aditi"
                         }, function(err, comment){
                             if(err){
                                 console.log(err);
